@@ -1,0 +1,36 @@
+
+    {
+        "window.zoomLevel": 0.5,
+        "editor.fontSize": 14,
+        "editor.lineHeight": 1.7,
+        
+        "editor.fontFamily": "JetBrains Mono",
+        //bloquinho sinalizador da linha q vc ta escrevendo
+        "editor.renderLineHighlight": "gutter",
+        //mostar em qual pasta/caminho tá o arquivo q vc ta mexendo (aparece nas abas)
+        "workbench.editor.labelFormat": "default",
+        // de lei, mostar  unitariamente cada pasta dentro da outra
+        "explorer.compactFolders": false,
+        // highlight semantico q diferencia texto normal e texto de função
+        "editor.semanticHighlighting.enabled": true,
+        // tira o caminho do diretório (confuso) que ficava de baixo das abas
+        "breadcrumbs.enabled": false,
+        // menu lateral que pode ser acessado com ctrl+q
+        "workbench.activityBar.location": "hidden",
+        // desativar ou não o minimapa na direita superior
+        "editor.minimap.enabled": true,
+        // fonte do explorador de arquivos
+        "apc.font.family": "Inter",
+        //permite mexer no css do vscode
+        
+        "apc.stylesheet": {
+            ".pane-header": "padding: 0 5px",
+            ".pane-body": "padding: 5px",
+            
+    
+        },
+        "code-runner.runInTerminal": true,
+        "workbench.colorTheme": "Monokai Night"
+    
+
+    }
