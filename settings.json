@@ -19,6 +19,8 @@
         "workbench.activityBar.location": "hidden",
         // desativar ou não o minimapa na direita superior
         "editor.minimap.enabled": true,
+        //explorador de arquivos na direita
+        "workbench.sideBar.location": "right",
         // fonte do explorador de arquivos
         "apc.font.family": "Inter",
         //permite mexer no css do vscode
