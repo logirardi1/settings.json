@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+// That's for linux lol
+[
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen && !inputFocus"
+    }
+]
