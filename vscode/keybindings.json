@@ -3,16 +3,17 @@
 [
     {
         "key": "ctrl+q",
-        "command": "workbench.action.quickOpen"
+        "command": "workbench.action.quickOpenView"
     },
     {
         "key": "ctrl+q",
-        "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
+        "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+        "when": "inViewsPicker && inQuickOpen"
     },
     {
-        "key": "ctrl+q",
-        "command": "workbench.action.quickOpenNavigatePrevious",
-        "when": "inQuickOpen && !inputFocus"
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.quickOpenNavigatePreviousInViewPicker",
+        "when": "inViewsPicker && inQuickOpen"
     }
 ]
+
