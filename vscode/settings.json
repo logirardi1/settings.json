@@ -40,7 +40,23 @@
     "workbench.colorTheme": "Monokai Night",
     "workbench.iconTheme": "symbols",
 
-    "workbench.statusBar.visible": true
+    "workbench.statusBar.visible": true,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+"claudeCode.preferredLocation": "panel",
 
-
+    // CONFIGURAÇÃO RUFF (PYTHON) - leitura de .ipynb
+"[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit",
+    "source.organizeImports.ruff": "explicit"
+  }
 }
+
